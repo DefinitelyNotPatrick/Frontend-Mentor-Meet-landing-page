@@ -13,6 +13,7 @@ body {
 	font-size: 62.5%;
 	font-family: 'Red Hat Display', sans-serif;
 	overflow-x: hidden;
+	overscroll-behavior-x: none;
 }
 
 // NAVBAR
@@ -28,13 +29,12 @@ body {
 // HEADER
 
 .header {
-	
 	margin: 6.4em 3.2em;
 	.section {
 		&__content {
 			gap: 4.8em;
 			&--image {
-				width: 145%;
+				width: 140%;
 				object-fit: cover;
 				object-position: center;
 			}
