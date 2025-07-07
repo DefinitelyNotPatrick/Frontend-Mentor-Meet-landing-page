@@ -240,6 +240,13 @@ body {
     -o-object-position: center;
        object-position: center;
   }
+  .header .section__content--text--button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.6em;
+}
+
   .main.section .section__content--images {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
